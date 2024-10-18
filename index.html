@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    
+    <link rel="stylesheet" href="./css/index.css"> 
+
+</head>
+<body>
+    <div class="principal" id="primeiro">
+        <form action="#" method="post">
+            <div class="coluna">
+                <div class="nome_pessoa" id="nm">
+                    <label>Nome Completo</label>
+                    <input type="text" id="name" name="Nome" required>
+                </div>
+            
+                <div class="email_participante" id="mail">
+                    <label>Email</label>
+                    <input type="email" id="txt_email" name="e-mail" required>
+                </div>
+    
+                <div class="tel_participante" id="ctt">
+                    <label>Telefone</label>
+                    <input type="tel" id="num_tel" name="Telefone" required>
+                </div>
+    
+                <div class="data_nascimento" id="dtnasc">
+                    <label>Data de Nascimento</label>
+                    <input type="date" id="dt_nasc" name="data_nasc" required>
+                </div>
+            </div>
+    
+            <div class="coluna">
+                <div class="Gen_participante" id="gen">
+                    <label>Gênero</label>
+                    <select name="genero_participante">
+                        <option value="Selecione">Selecione</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Indefinido">Indefinido</option>
+                    </select>
+
+                </div>
+    
+                <div class="msg_participante" id="msg_part">
+                    <label>Mensagem</label>
+                    <textarea id="msg" name="Mensagem" maxlength="200"></textarea>
+                </div>
+    
+                <div class="tp_participante" id="tipo_insc">
+                    <label>Tipo de Inscrição</label>
+                    <select name="tipo_inscrição">
+
+                        <option value="Selecione">Selecione</option>
+                        <option value="Palestrante">Palestrante</option>
+                        <option value="Visitante">Visitante</option>
+                        <option value="Voluntário">Voluntário</option>
+                
+                    </select>
+                </div>
+    
+                <div class="corfimar_limpar" id="botao">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>  
+            
+</body>
+</html>
