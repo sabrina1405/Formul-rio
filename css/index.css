@@ -8,43 +8,56 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #899c59;
+    font-family:'Lucida Sans';
+    
 }
 
 form {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
-    display: flex; 
-    gap: 70px; 
-    width: 80%; 
+    display: flex;
+    gap: 30px;
+    max-width: 900px;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 .coluna {
     display: flex;
-    flex-direction: column; 
-    flex: 1; 
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
+    flex-direction: column;
+    flex: 1;
 }
 
 input, select, textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px; 
-    
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 
-button:hover{
-    padding: 10px 15px;
-    margin-right: 10px;
+textarea {
+    min-height: 100px; 
+}
+
+button {
+    padding: 10px;
     border: none;
-    background-color: black;
+    background-color: #333;
     color: white;
     border-radius: 4px;
     cursor: pointer;
+    width: 100px;
 }
+
+button:hover {
+    background-color: #817e7e;
+}
+
+
 
 
